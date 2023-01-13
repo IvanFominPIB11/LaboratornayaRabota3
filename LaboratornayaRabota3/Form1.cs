@@ -114,6 +114,21 @@ namespace LaboratornayaRabota3
             from.ShowDialog();
         }
 
+        private void colorDialog1_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Colorbtn_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                Colorbtn.BackColor = colorDialog1.Color;
+                _selectedBrush.BrushColor = colorDialog1.Color;
+             
+            }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
