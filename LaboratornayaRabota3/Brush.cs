@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LaboratornayaRabota3
-{
+{   
     abstract class Brush
     {
         public static int W, H;
